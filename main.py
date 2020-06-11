@@ -8,6 +8,7 @@ from datetime import date
 import time
 
 from kroger_links import links
+from kroger_links import counts
 
 wait_time = 1
 
@@ -34,9 +35,11 @@ web.driver.find_element_by_xpath("//button[@class='kds-Button kds-Button--primar
 
 #%%
 food_dict = {}
-i = 1
 total = float(0)
-for link in links:
+for i in range(0, len(links)):
+    link = links[i]
+    count = counts[i]
+
     web.driver.get(link)
     time.sleep(wait_time*2)
     price_element = web.driver.find_elements_by_xpath("//data[@class='kds-Price']")[0]
@@ -56,15 +59,14 @@ for link in links:
     print(location_text_parsed)
 
     food_dict[i] = {
-        'price': price,
         'name': name_text,
+        'price': price,
         'location': location_text_parsed,
-        'link': link
+        'count': count,
+        'link': link,
     }
 
-    #step
-    i = i+1
-    total = total + price
+    total = total + (price * count)
 
 food_dict['Total'] = total
 #%%

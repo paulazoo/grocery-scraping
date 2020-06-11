@@ -17,3 +17,24 @@ links = [
 'https://www.kroger.com/p/kroger-wild-caught-boneless-skinless-pacific-cod/0001111077998',
 'https://www.kroger.com/p/kroger-wild-caught-boneless-skinless-pink-salmon-fillets-family-size/0001111077990'
 ]
+
+counts = [
+    1,
+1,
+1,
+4,
+3,
+1,
+1,
+1,
+1,
+7,
+1,
+1,
+1,
+1,
+2,
+1,
+1,
+1
+]
