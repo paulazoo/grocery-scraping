@@ -74,7 +74,8 @@ food_dict['Total'] = total
 
 #%%
 import json
-json.dump(food_dict, open( r"C:\Users\pkzr3\Coding\grocery-scraping\output_06112020.json", 'w' ) )
+time_string = time.strftime('%m%d%Y') 
+json.dump(food_dict, open( r"C:\Users\pkzr3\Coding\grocery-scraping\output_"+time_string+".json", 'w' ) )
 
 
 #%%
