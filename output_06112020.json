@@ -1,105 +1,122 @@
 {
-    "1": {
-        "price": 0.5,
+    "0": {
         "name": "Garlic",
+        "price": 0.5,
         "location": "Produce",
+        "count": 1,
         "link": "https://www.kroger.com/p/garlic/0000000004608"
     },
-    "2": {
-        "price": 8.47,
+    "1": {
         "name": "Heritage Farm™ Boneless & Skinless Chicken Breasts with Rib Meat",
+        "price": 8.47,
         "location": "Meat",
+        "count": 1,
         "link": "https://www.kroger.com/p/heritage-farm-boneless-skinless-chicken-breasts-with-rib-meat/0021065600000"
     },
-    "3": {
-        "price": 1.69,
+    "2": {
         "name": "Kroger® Long Grain Brown Rice",
+        "price": 1.69,
         "location": "Aisle 6",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-long-grain-brown-rice/0001111089874"
     },
-    "4": {
-        "price": 0.77,
+    "3": {
         "name": "Red Bell Pepper",
+        "price": 0.77,
         "location": "Produce",
+        "count": 4,
         "link": "https://www.kroger.com/p/red-bell-pepper/0000000004688"
     },
-    "5": {
-        "price": 0.77,
+    "4": {
         "name": "Bell Pepper - Yellow",
+        "price": 0.77,
         "location": "Produce",
+        "count": 3,
         "link": "https://www.kroger.com/p/bell-pepper-yellow/0000000004689"
     },
-    "6": {
-        "price": 2.99,
+    "5": {
         "name": "Kroger® Unsalted Butter Sticks",
+        "price": 2.99,
         "location": "Dairy",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-unsalted-butter-sticks/0001111089305"
     },
-    "7": {
-        "price": 1.09,
+    "6": {
         "name": "Kroger® Grade A Large Eggs 12 Count",
+        "price": 1.09,
         "location": "Dairy",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-grade-a-large-eggs-12-count/0001111060903"
     },
-    "8": {
-        "price": 1.25,
+    "7": {
         "name": "Kroger® Enriched White Sandwich Bread",
+        "price": 1.25,
         "location": "Aisle 24",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-enriched-white-sandwich-bread/0001111000160"
     },
-    "9": {
-        "price": 2.5,
+    "8": {
         "name": "Kroger® Traditional Breakfast Sausage Patties",
+        "price": 2.5,
         "location": "Meat",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-traditional-breakfast-sausage-patties/0001111097045"
     },
-    "10": {
-        "price": 0.25,
+    "9": {
         "name": "Banana",
+        "price": 0.25,
         "location": "Produce",
+        "count": 7,
         "link": "https://www.kroger.com/p/banana/0000000004011"
     },
-    "11": {
-        "price": 2.09,
+    "10": {
         "name": "Cheerios Honey Nut Cereal",
+        "price": 2.09,
         "location": "Aisle 11",
+        "count": 1,
         "link": "https://www.kroger.com/p/cheerios-honey-nut-cereal/0001600012506"
     },
-    "12": {
-        "price": 3.49,
+    "11": {
         "name": "Kroger® Ham Steaks",
+        "price": 3.49,
         "location": "Meat",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-ham-steaks/0001111097034"
     },
-    "13": {
-        "price": 1.99,
+    "12": {
         "name": "Kroger® Shredded Sharp Cheddar Cheese",
+        "price": 1.99,
         "location": "Aisle 24",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-shredded-sharp-cheddar-cheese/0001111050158"
     },
-    "14": {
-        "price": 1.59,
+    "13": {
         "name": "Kroger® Tender Spinach",
+        "price": 1.59,
         "location": "Produce",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-tender-spinach/0001111091649"
     },
-    "15": {
-        "price": 0.78,
+    "14": {
         "name": "Potatoes - Sweet - Jewel Yams",
+        "price": 0.78,
         "location": "Produce",
+        "count": 2,
         "link": "https://www.kroger.com/p/potatoes-sweet-jewel-yams/0000000004816"
     },
-    "16": {
-        "price": 10.99,
+    "15": {
         "name": "Kroger® Wild Caught Boneless & Skinless Pacific Cod",
+        "price": 10.99,
         "location": "Seafood",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-wild-caught-boneless-skinless-pacific-cod/0001111077998"
     },
-    "17": {
-        "price": 10.99,
+    "16": {
         "name": "Kroger® Wild Caught Boneless & Skinless Pink Salmon Fillets Family Size",
+        "price": 10.99,
         "location": "Seafood",
+        "count": 1,
         "link": "https://www.kroger.com/p/kroger-wild-caught-boneless-skinless-pink-salmon-fillets-family-size/0001111077990"
     },
-    "Total": 52.2
+    "Total": 58.33000000000001
 }

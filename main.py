@@ -46,7 +46,7 @@ for i in range(0, len(links)):
     time.sleep(1)
     price_text = price_element.get_attribute("value")
     price = float(price_text)
-    print(price)
+    # print(price)
     
     name_element = web.driver.find_elements_by_css_selector("span[class='kds-Text--l']")[0]
     name_text = get_text_excluding_children(web, name_element)
@@ -56,7 +56,7 @@ for i in range(0, len(links)):
     location_text = get_text_excluding_children(web, location_element)
     location_text_parsed = location_text[11:]
     location_text_parsed = location_text_parsed[:-14]
-    print(location_text_parsed)
+    # print(location_text_parsed)
 
     food_dict[i] = {
         'name': name_text,
